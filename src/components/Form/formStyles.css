@@ -1,0 +1,97 @@
+.tandc {
+    color: rgb(69, 69, 226);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.eyeIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.activeName, .activeEmail, .activePw {
+    display: none;
+}
+
+.eyeToggle {
+    position: relative;
+}
+
+
+.lText {
+    color: #777575;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 120px 40px;
+}
+
+.container .text h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container .text p {
+    font-size: 16px;
+}
+
+.formContainer {
+    width: auto;
+}
+
+.formContainer .inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 16px 0 16px 0;
+    position: relative;
+}
+
+.inputContainer label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
+input[type="text"], .selectType {
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    width: auto;
+    margin: 2px 0;
+}
+
+input[type="text"]:focus, .selectType:focus {
+    outline: none;
+}
+
+#error  {
+    border-color: red;
+}
+
+#spanError {
+    margin-top: 5px;
+    color: red;
+}
+
+.submitForm {
+    width: 100%;
+    background: #c4c4c4;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+}
+
+.privacy {
+    margin: 35px 0;
+}

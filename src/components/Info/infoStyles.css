@@ -1,0 +1,15 @@
+
+.textContainer {
+    background: rgb(36, 36, 231);
+}
+
+.textContainer .textWrapper {
+    width: 70%;
+    margin: 270px  auto;
+    color: #fff;
+}
+
+.textContainer h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
