@@ -1,4 +1,3 @@
-// import { isTerminatorless } from '@babel/types'
 import React, { useState } from 'react';
 import './formStyles.css';
 import eye from "../../images/eye.png"
